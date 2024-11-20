@@ -9,3 +9,4 @@ spring:
     config:
       allow-override: true # allow microservices to override the remote properties with their own
       override-none: true # override configuration with any local property source
+      override-system-properties: false
